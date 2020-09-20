@@ -1,29 +1,30 @@
 {
-  "name": "february29th",
-  "version": "0.0.1",
-  "description": "A JavaScript module and CLI tool that does nothing but tell you whether or not it's February 29th",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx tsc ./src/february29th.ts",
-    "test": "node test_node",
-    "test_deno": "deno test"
-  },
-  "bin": "./test_node.js",
-  "engines": {
-    "node": ">=0.5.1",
-    "deno": ">=0.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheThunderGuyS/february29th.git"
-  },
-  "author": "TheThunderGuyS",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheThunderGuyS/february29th/issues"
-  },
-  "homepage": "https://github.com/TheThunderGuyS/february29th#readme",
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  }
+    "name": "february29th",
+    "version": "0.0.2",
+    "description": "A JavaScript module and CLI tool that does nothing but tell you whether or not it's February 29th",
+    "keywords": ["cli", "date"],
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tsc ./src/february29th.ts",
+        "test": "node test_node",
+        "test_deno": "deno test"
+    },
+    "bin": "./test_node.js",
+    "engines": {
+        "node": ">=0.5.1",
+        "deno": ">=0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheThunderGuyS/february29th.git"
+    },
+    "author": "TheThunderGuyS",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TheThunderGuyS/february29th/issues"
+    },
+    "homepage": "https://github.com/TheThunderGuyS/february29th#readme",
+    "devDependencies": {
+        "typescript": "^4.0.3"
+    }
 }
