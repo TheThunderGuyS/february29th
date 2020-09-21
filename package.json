@@ -1,6 +1,6 @@
 {
     "name": "february29th",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A JavaScript module and CLI tool that does nothing but tell you whether or not it's February 29th",
     "keywords": ["cli", "date"],
     "main": "index.js",
