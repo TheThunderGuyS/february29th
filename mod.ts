@@ -1,1 +1,1 @@
-export * from "./src/february29th.ts";
+export {default} from "./src/february29th.ts";

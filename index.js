@@ -1,1 +1,1 @@
-module.exports = require("./src/february29th.js");
+module.exports = require("./dist/february29th.js").default;
